@@ -49,3 +49,5 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu)
 navLogo.addEventListener('click', hideMobileMenu)
+
+<meta property="og:image" content="http://forms.gmelisov.amocrm2.saas/forms/img/bg_og/defaultbg.png">
