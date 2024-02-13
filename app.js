@@ -2,18 +2,18 @@ const menu = document.querySelector('#mobile-menu')
 const menuLinks = document.querySelector('.navbar__menu')
 const navLogo = document.querySelector('#navbar__logo')
 
-const videoUrl = "https://vk.com/video15536257_456239199";
+// const videoUrl = "https://vk.com/video15536257_456239199";
 
 // Ищем iframe по id
-const iframeElement = document.getElementById("vk_player");
+// const iframeElement = document.getElementById("vk_player");
 
-// Проверяем, найден ли iframe
-if (iframeElement) {
-    // Устанавливаем новое значение атрибута src
-    iframeElement.src = videoUrl;
-} else {
-    console.error("Iframe с указанным id не найден.");
-}
+// // Проверяем, найден ли iframe
+// if (iframeElement) {
+//     // Устанавливаем новое значение атрибута src
+//     iframeElement.src = videoUrl;
+// } else {
+//     console.error("Iframe с указанным id не найден.");
+// }
 
 const mobileMenu = () => {
   menu.classList.toggle('is-active')
